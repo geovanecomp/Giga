@@ -10,7 +10,7 @@
         //Dados para conexão
         $dsn = "mysql:dbname=giga;host=localhost";
         $usuario = "root";
-        $senha = "bzol1832";
+        $senha = "root";
         $this->bd = null;
         try{
             $this->bd = new PDO($dsn, $usuario, $senha, $opcoes);
