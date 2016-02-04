@@ -22,7 +22,7 @@
     public function getId(){
       return $this->id;
     }
-    
+
     public function setDataHora($dataHora){
       $this->dataHora = $dataHora;
     }
@@ -52,7 +52,7 @@
     }
 
     public function getValorTotal(){
-      return $this->valorTotal
+      return $this->valorTotal;
     }
 
     public function setTransportadora($transportadora){

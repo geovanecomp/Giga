@@ -23,7 +23,7 @@
     }
 
     public function getNome(){
-      return $this->nome = $nome;
+      return $this->nome;
     }
 
   }
