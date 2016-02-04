@@ -11,8 +11,11 @@
     public function listarFornecedores(){
       return $this->dao->listarFornecedores();
     }
+    public function buscarFornecedorPorId($id){
+      return $this->dao->buscarFornecedorPorId($id);
+    }
     public function buscarFornecedorPorNome($nome){
-      return $this->dao->buscarFornecedorPorNome($nome)
+      return $this->dao->buscarFornecedorPorNome($nome);
     }
     public function atualizarFornecedor(Fornecedor $fornecedor){
       return $this->dao->atualizarFornecedor($fornecedor);
