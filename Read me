@@ -1,0 +1,20 @@
+------------Softwares utilizados:------------
+*Sistema operacional: Ubuntu
+
+*Interface de programação: Atom
+
+*Linguagem de programação: PHP
+
+*Interface de banco de dados: PhpMyAdmin
+
+*Controle de versão: GIT
+	https://github.com/geovanecomp/Giga.git
+	
+
+------------Informações Importantes------------
+
+	Todo o código foi implementado usando POO e MVC. Além disso, uma boa estratégia é utilizar uma FrontController, evitando assim a criação e uso de inumeras controllers, dessa forma, tendo um arquivo único e central, este será responsável por tomar decisões do que fazer e em qual página fazer com base na URL. Todo o código está bem estruturado, formatado e comentado (os principais estão nas operações que envolvem Fornecedor).
+	Apenas os casos de usos de Pedido não foram implementados, pois por ser um teste, fiquei com receio de no mesmo existir algum tipo de 'pegadinha' entre algumas classes. Na classe Produto, não temos nenhuma informação de seu preço, o mais próximo disso encontra-se na classe da relação entre Produto e Pedido, a classe Item que possui o atributo valor, o que é estranho, pois geralmente o valor está atrelado ao Produto, e se for para existir algo assim em Item, seria o subTotal. Por isso, como estou participando de vários processos seletivos (e já tenho que dar uma resposta as outras empresas), fiquei programando de forma intensa este projeto (por isso também de eu ter dado uma previsão de um dia para entrega) a fim de poder participar do processo seletivo da Gigalink e principalmente mostrar meu conhecimento.
+	A programação dos casos de uso de Pedido são do mesmo nível de complexidade do Fornecedor. Temos uma composição entre Pedido e Item, de forma que deixa claro que não deve existir Pedidos sem itens, e a classe Item só deve ser instanciada pela classe Pedido (similar ao exemplo de prédio e apartamento). Na View, teriamos uma caixa de seleção com todos os produtos (vindos de uma consulta ao banco) e poderíamos ir adicionando-os de forma dinâmica ao vetor de itens da classe Pedido.
+	Por fim, me preocupei principalmente com a qualidade do código e dos padrões. Fiz apenas algumas simples validações, e não me preocupei muito com o visual do site. Sobre o GIT, eu sei que o ideal é a realização de vários commits menores, e não poucos commits com muitas alterações.
+
